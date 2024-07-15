@@ -1,0 +1,93 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.heroImage {
+  height: 9.563rem;
+}
+
+.groupChatContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+  padding: 2.5rem 1.25rem;
+}
+
+.groupChatHeader {
+  color: hsl(240, 21%, 20%);
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.1;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.groupChatMessage {
+  color: hsl(240, 10%, 57%);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.groupChatButtonVersion {
+  background-color: hsl(192, 37%, 48%);
+  border-radius: 3.125rem;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.63;
+  margin-bottom: 1.5rem;
+  height: 3.625rem;
+  width: 12.063rem;
+}
+
+.spanVersion {
+  color: hsl(192, 90%, 77%);
+}
+
+.groupChatButtonQuestion {
+  background-color: #855FB1;
+  border-radius: 3.125rem;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.63;
+  height: 3.625rem;
+  width: 139px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* mobile*/
+@media (max-width:30em) {
+  .laptopContainer {
+    display: none;
+  }
+}
+
+/* tablets */
+@media (min-width:30.063em) and (max-width:64em) {
+  .laptopContainer {
+    display: none;
+  }
+}
+
+/* desktop */
+@media (min-width: 64.063em) {
+  .tabletMobileContainer {
+    display: none;
+  }
+}
