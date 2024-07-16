@@ -1,0 +1,90 @@
+.lineContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
+}
+
+.verticalLine {
+  border-left: 0.125rem solid hsl(0, 0%, 85%);
+  height: 5.25rem;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  border: 0.125rem solid hsl(0, 0%, 85%);
+}
+
+.circleVersion {
+  color: hsl(240, 10%, 57%);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.63;
+}
+
+/* .footer {
+  border: 1px solid red;
+} */
+
+.footerContainer {
+  background-color: hsl(192, 37%, 48%);
+  background-image: url("../../assets/mobile/image-footer.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 26.75rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footerHeader {
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 5.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.13;
+}
+
+.footerMessage {
+  color: #FAFAFA;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.footerButtonVersion {
+  background-color: #855FB1;
+  border-radius: 3.125rem;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.63;
+  margin-bottom: 1.5rem;
+  height: 3.625rem;
+  width: 12.063rem;
+}
+
+
+@media (max-width:30em) {}
+
+/* tablets */
+@media (min-width:30.063em) and (max-width:64em) {}
+
+/* desktop */
+@media (min-width: 64.063em) {}

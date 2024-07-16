@@ -1,0 +1,88 @@
+.lineContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.verticalLine {
+  border-left: 0.125rem solid hsl(0, 0%, 85%);
+  height: 5.25rem;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  border: 0.125rem solid hsl(0, 0%, 85%);
+}
+
+.circleVersion {
+  color: hsl(240, 10%, 57%);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.63;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: 9.438rem 9.438rem;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1.5rem;
+  column-gap: 1.563rem;
+  padding: 2.5rem 1.25rem;
+}
+
+.item {
+  border-radius: 0.625rem;
+}
+
+.modernContainer {
+  padding: 2.5rem 1.25rem;
+}
+
+.modernBuilt {
+  color: #4D96A9;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.63;
+  letter-spacing: 0.25rem;
+}
+
+.modernHeader {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.13;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.modernMessage {
+  color: #87879D;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.63;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+/* mobile*/
+@media (max-width:30em) {}
+
+/* tablets */
+@media (min-width:30.063em) and (max-width:64em) {}
+
+/* desktop */
+@media (min-width: 64.063em) {}
