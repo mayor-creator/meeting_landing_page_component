@@ -17,7 +17,9 @@ export function Footer() {
 						Stay connected with reliable HD meetings and unlimited one-on-one
 						and group video sessions.
 					</p>
-					<Button className={style.footerButtonVersion}>Download v1.3</Button>
+					<Button className={style.footerButtonVersion}>
+						Download <span className={style.spanVersion}>v1.3</span>
+					</Button>
 				</div>
 			</footer>
 		</>
