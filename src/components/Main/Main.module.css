@@ -48,7 +48,7 @@
 }
 
 .modernBuilt {
-  color: #4D96A9;
+  color: hsl(192, 37%, 48%);
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 1.5rem;
@@ -69,7 +69,7 @@
 }
 
 .modernMessage {
-  color: #87879D;
+  color: hsl(240, 10%, 57%);
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
@@ -78,11 +78,55 @@
   padding-right: 0.625rem;
 }
 
-/* mobile*/
-@media (max-width:30em) {}
 
 /* tablets */
-@media (min-width:30.063em) and (max-width:64em) {}
+@media (min-width:30.063em) and (max-width:64em) {
+  .lineContainer {
+    padding-top: 3.75rem;
+  }
+
+  .imageContainer {
+    grid-template-columns: repeat(4, 10.25rem);
+    row-gap: 0rem;
+    column-gap: 0.688rem;
+    padding: 0rem;
+  }
+
+  .modernHeader {
+    font-size: 2.5rem;
+    padding-right: 9.375rem;
+    padding-left: 9.375rem;
+  }
+
+  .modernMessage {
+    padding-left: 3.75rem;
+    padding-right: 5.625rem;
+  }
+}
 
 /* desktop */
-@media (min-width: 64.063em) {}
+@media (min-width: 64.063em) {
+  .imageContainer {
+    grid-template-columns: repeat(4, 15.938rem);
+    row-gap: 0rem;
+    column-gap: 0.688rem;
+    padding: 0rem;
+  }
+
+  .modernHeader {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    max-width: 28.438rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modernMessage {
+    font-size: 1.125rem;
+    max-width: 33.75rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

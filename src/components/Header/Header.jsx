@@ -28,15 +28,19 @@ export function Header() {
 							alt="portrait of different people"
 						/>
 					</div>
-					<div className="group-chat">
-						<h1>Group Chat for Everyone</h1>
-						<p>
+					<div className={style.groupChatContainer}>
+						<h1 className={style.groupChatHeader}>Group Chat for Everyone</h1>
+						<p className={style.groupChatMessage}>
 							Meet makes it easy to connect with others face-to-face virtually
 							and collaborate across any device.
 						</p>
 						<div className="buttons">
-							<Button>Download v1.3</Button>
-							<Button>What is it?</Button>
+							<Button className={style.groupChatButtonVersion}>
+								Download <span className={style.spanVersion}>v1.3</span>
+							</Button>
+							<Button className={style.groupChatButtonQuestion}>
+								What is it?
+							</Button>
 						</div>
 					</div>
 					<div className="hero-right-container">
