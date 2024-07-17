@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Laptop Screenshot](./MeetLandingPage.jpeg)
 
 ### Links
 
