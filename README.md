@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Meet landing page Solution URL](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR/hub)
+- Live Site URL: [Meet landing page Live Site URL](https://mayor-creator.github.io/meeting_landing_page_component/)
 
 ## My process
 
